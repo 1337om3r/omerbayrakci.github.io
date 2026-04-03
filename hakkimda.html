@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hakkimda — Alex Kaya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav>
+  <a href="index.html" class="nav-logo">AK<span style="color:var(--accent2)">.</span>dev</a>
+  <div class="nav-links">
+    <a href="index.html">Anasayfa</a>
+    <a href="hakkimda.html">Hakkimda</a>
+    <a href="beceriler.html">Beceriler</a>
+    <a href="sertifikalar.html">Sertifikalar</a>
+    <a href="projeler.html">Projeler</a>
+    <a href="iletisim.html">Iletisim</a>
+  </div>
+  <div class="hamburger" role="button" tabindex="0"><span></span><span></span><span></span></div>
+</nav>
+
+<main>
+  <section class="page-section">
+    <p class="section-label">Kimim</p>
+    <h1 class="section-title">Hakkimda</h1>
+    <p class="section-sub">Kod yazmayi ve sorunlari cozmeyi seven bir yazilimci.</p>
+
+    <div class="about-grid">
+
+      <!-- Photo -->
+      <div class="about-photo-wrap fade-up">
+        <div class="about-photo-placeholder">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.58-7 8-7s8 3 8 7"/>
+          </svg>
+          FOTOGRAF
+        </div>
+        <div class="about-photo-frame"></div>
+      </div>
+
+      <!-- Text -->
+      <div class="about-text fade-up">
+        <h2>Merhaba, ben Alex Kaya.</h2>
+        <p>
+          Istanbul'da yasayan bir <strong>Full Stack Yazilim Gelistiricisi</strong> olarak 
+          4 yildir web teknolojileri uzerine calisiyorum. Kullanici deneyimini on planda tutan, 
+          olceklenebilir ve surdurulebilir sistemler tasarlamak benim icin bir tutku.
+        </p>
+        <p>
+          Kariyerime backend gelistiricilik ile baslasam da zamanla frontend dunyasina olan 
+          ilgim giderek artti. Bugun <strong>React, Node.js ve TypeScript</strong> ile tam yigin 
+          cozumler uretirken, veritabani tasarimi ve DevOps sureclerine de hakim bir profil 
+          olusturdum.
+        </p>
+        <p>
+          Acik kaynak projelere katki saglamak, yeni teknolojileri deneyimlemek ve teknik 
+          blog yazmak gunluk rutinimin bir parcasi. Bos zamanlarimda elektronik muzik 
+          yapiyorum ve doga fotografciligiyla ilgileniyorum.
+        </p>
+
+        <div class="about-details">
+          <div class="detail-item fade-up">
+            <div class="d-label">Konum</div>
+            <div class="d-value">Istanbul, Turkiye</div>
+          </div>
+          <div class="detail-item fade-up">
+            <div class="d-label">Universite</div>
+            <div class="d-value">ITU Bilgisayar Muhendisligi</div>
+          </div>
+          <div class="detail-item fade-up">
+            <div class="d-label">Deneyim</div>
+            <div class="d-value">4+ Yil</div>
+          </div>
+          <div class="detail-item fade-up">
+            <div class="d-label">Durum</div>
+            <div class="d-value" style="color:var(--accent1)">Yeni Firsatlara Acik</div>
+          </div>
+          <div class="detail-item fade-up">
+            <div class="d-label">Diller</div>
+            <div class="d-value">Turkce, Ingilizce</div>
+          </div>
+          <div class="detail-item fade-up">
+            <div class="d-label">Ilgi Alanlari</div>
+            <div class="d-value">OSS, Muzik, Fotograf</div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem; display:flex; gap:1rem; flex-wrap:wrap;">
+          <a href="iletisim.html" class="btn btn-primary">Benimle Calis</a>
+          <a href="#" class="btn btn-outline">CV Indir</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Timeline -->
+    <div style="margin-top:5rem;">
+      <p class="section-label">Kariyer</p>
+      <h2 class="section-title" style="font-size:clamp(1.4rem,3vw,2rem); margin-bottom:2rem;">Deneyim</h2>
+
+      <div style="position:relative; padding-left:1.5rem; border-left:1px solid var(--border);">
+
+        <div class="card fade-up" style="margin-bottom:1.25rem; margin-left:1rem;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.6rem;">
+            <div>
+              <div style="font-weight:700; font-size:1rem;">Senior Frontend Gelistirici</div>
+              <div style="color:var(--accent1); font-family:var(--mono); font-size:0.75rem; letter-spacing:0.08em;">TechCorp Istanbul</div>
+            </div>
+            <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted);">2022 — Gunumuz</div>
+          </div>
+          <p style="color:var(--muted); font-size:0.875rem; line-height:1.7;">
+            React ve TypeScript ile kurumsal SaaS platformu gelistirildi. Mikro-frontend mimarisine gecis surecine liderlik edildi, performans %40 iyilestirildi.
+          </p>
+        </div>
+
+        <div class="card fade-up" style="margin-bottom:1.25rem; margin-left:1rem;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.6rem;">
+            <div>
+              <div style="font-weight:700; font-size:1rem;">Full Stack Gelistirici</div>
+              <div style="color:var(--accent1); font-family:var(--mono); font-size:0.75rem; letter-spacing:0.08em;">Startup XYZ</div>
+            </div>
+            <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted);">2020 — 2022</div>
+          </div>
+          <p style="color:var(--muted); font-size:0.875rem; line-height:1.7;">
+            Node.js / PostgreSQL backend ve React frontend ile e-ticaret platformu sifirdan insa edildi. 50k+ aktif kullaniciya hizmet verildi.
+          </p>
+        </div>
+
+        <div class="card fade-up" style="margin-left:1rem;">
+          <div style="display:flex; justify-content:space-between; align-items:flex-start; flex-wrap:wrap; gap:0.5rem; margin-bottom:0.6rem;">
+            <div>
+              <div style="font-weight:700; font-size:1rem;">Junior Web Gelistirici</div>
+              <div style="color:var(--accent1); font-family:var(--mono); font-size:0.75rem; letter-spacing:0.08em;">Ajans Dijital</div>
+            </div>
+            <div style="font-family:var(--mono); font-size:0.7rem; color:var(--muted);">2019 — 2020</div>
+          </div>
+          <p style="color:var(--muted); font-size:0.875rem; line-height:1.7;">
+            Kurumsal web siteleri ve landing page'ler gelistirildi. WordPress ozelestirme ve jQuery ile interaktif bilesenler uretildi.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+  </section>
+</main>
+
+<footer>
+  <span class="footer-copy">2025 <span>Alex Kaya</span> — Tum haklar saklidir.</span>
+  <div class="footer-socials">
+    <a href="#" class="footer-social-link" aria-label="GitHub">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+    </a>
+    <a href="#" class="footer-social-link" aria-label="LinkedIn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+    </a>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
